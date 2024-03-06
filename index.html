@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Project</title>
+    <style>
+        html,body{
+            height: 100%;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            color: blueviolet;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            flex: 1 0 300px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 30px black;
+        }
+        .item:nth-child(1) {
+            background-color:aqua;
+            background: url(su\ cersenbesi.jpg)center/cover;
+            color: azure;
+        }
+        .item:nth-child(2) {
+            background-color:orangered;
+            background: url(od\ cersenbesi.jpg)center/cover;
+            color: beige;
+        }
+        .item:nth-child(3) {
+            background-color: yellowgreen;
+            background: url(yel\ cersenbesi.jpg)center/cover;
+        }
+        .item:nth-child(4){
+            background-color: rosybrown;
+            background: url(torpag.jpg)center/cover;
+            color: bisque;
+        }
+        .container1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .inten{
+            flex: 1 0 250px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 30px black;
+            background: url(novruz.jpg);
+            color: white;
+        }
+        h3{
+            text-align: center;
+            height: 2%;
+            margin: 10px;
+            padding: 20px;
+            background-color: violet;
+            color: azure;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>HoliDay</h2>
+    <div class="container">
+
+        <div class="item">
+            <h1>Su Cersenbesi</h1>
+            <p>Su çərşənbəsi — Novruz bayramının ilk çərşənbəsi. Bu çərşənbəni Yalançı çərşənbə, "Əzəl çərşənbə", "Sular Novruzu" da adlandırırlar. Su çərşənbəsində su və su mənbələri təzələnir, arxlar qaydaya salınır, su hövzələrində abadlıq işləri görülür, su ilə bağlı müxtəlif şənliklər keçirirlər. Su çərşənbəsi suya tapınma inamı ilə bağlıdır. Hələ gün doğmamışdan hamı su üstünə gedir, əl-üzünü yuyur, bir-birinin üzərinə su çiləyir, su üstündən atlanır, yaralıların yarasına su çiləyirlər.</p>
+        </div>
+
+        <div class="item">
+            <h1>Od cersenbesi</h1>
+            <p>Bu gün Boz  ayın ikinci - Od  çərşənbəsini qeyd edirik. Qədim türk coğrafiyasında çillələrdən sonra gələn Boz ay bitincə yeni ilin başlanğıcını, təbiətin oyanışını təmin edirmiş. Boz aydan əvvəl isə bir neçə yalançı çərşənbələr də zaman-zaman qeyd olunub. Amma ilk əsas çərşənbə olan Su çərşənbəsindən sonra sovet dövründən etibarən Od çərşənbəsi qeyd olunmağa başladı. </p>
+        </div>
+        <div class="item">
+            <h1>Yel cersenbesi</h1>
+            <p>Bu gün  Yel çərşənbəsidir. Boz ay bu çərşənbə ilə təslimiyyatın astanasına qədəm qoyur və təbiətin diriləcəyi günü bizə daha da yaxınlaşdırır.
+
+                Bir zamanlar yalnız sudan ibarət olan həyata torpaq sonradan rəng qatdı. Amma həyatın varlığı üçün hava, yel də lazım idi. Yalnız o həyatı formalaşdıra bilərdi.</p>
+        </div>
+        <div class="item">
+            <h1>Torpag Cersenbesi</h1>
+            <p>  Bütün bayramlar mahiyyət etibarilə birləşdirici xüsusiyyətə malikdir. İlaxır çərşənbələrin və Novruz bayramının mahiyyətində də xalqın birliyi dayanır.
+   
+                Novruz çərşənbələrinin sonuncusu Torpaq çərşənbəsidir. Xalq arasında "Yer çərşənbəsi", "İlaxır çərşənbə" də adlandırılan bu çərşənbə günü yer oyanır, torpaq nəfəs alır, əkinə, toxum səpininə hazır olur.</p>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="inten">
+            <h1>Novruz bayrami</h1>
+            <p>Novruz bayramı (tərcümə: Yeni Gün bayramı, Bahar bayramı; fars. نوروز‎ (Novruz), özb. Navruz, türkm. Nowruz, qaz. Naurız, qırğ. Nooruz, kürd. Newroz, krımtat. Navrez.) – Qədim İran və Türk mənşəli xalqlara məxsus bayram.
+
+                Novruz bayramı Şimal yarımkürəsində astronomik yazın başlandığı, gecə-gündüzün bərabərliyi günündə (martın 20-si və ya 21-dən başlayıb 25-nə qədər) keçirilir. Bir sıra xalqlar yaz fəslinin gəlməsini təbiətin canlanması ilə bağlamış, bu münasibətlə şənliklər keçirmiş, onu yeni ilin başlanğıcı kimi bayram etmişlər. Qədim zamanlardan başlayaraq Azərbaycan, İran, Əfqanıstan, Tacikistan, Özbəkistanda və bir çox şərq ölkələrində baharın — yeni ilin gəlişini şənliklərlə qarşılayırlar. Martın 21-i İran və Əfqanıstanda rəsmi təqvimin ilk günü sayılır.</p>
+        </div>
+    </div>
+    <h3>Desing by Huriyya&copy;2024</h3>
+    
+</body>
+</html>
